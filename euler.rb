@@ -18,4 +18,3 @@ def euler
 
 end
 
-#puts filter_numbers.inspect
