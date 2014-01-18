@@ -11,7 +11,7 @@ it "should return the first 11 fibonacci" do
 end
 
 it "should return the the even numbers from the output of fib" do
-	a = fib.map{|fib| fib.even?}
+	a = fib_filter(fib).map{|f| f.even?}
 	expect(a.include? false).to eq(false)
 end	
 

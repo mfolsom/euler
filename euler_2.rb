@@ -11,6 +11,12 @@ def fib
 fib_array
 end
 
-def fib_filter
-	
+def fib_filter(n)
+	array_even = []
+	n.map do |i|
+		if i % 2 == 0
+			array_even << i
+		end
+	end
+	array_even
 end
