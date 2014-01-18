@@ -1,5 +1,5 @@
 
-#def fibonacci
+def fibonacci
 
 fib = Enumerator.new do |y|
   i = 0
@@ -10,6 +10,5 @@ fib = Enumerator.new do |y|
 end
 end
 
-#end
+end
 
-puts fib.next.next.next
