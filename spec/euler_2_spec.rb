@@ -15,4 +15,8 @@ it "should return the the even numbers from the output of fib" do
 	expect(a.include? false).to eq(false)
 end	
 
+it "should return the sum of fib_filter" do
+	expect(fib_sum(fib)).to eq(10)
+end
+
 end
