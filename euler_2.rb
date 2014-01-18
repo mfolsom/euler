@@ -5,7 +5,7 @@ def fib
  i = 0
  j = 1
   fib_array = []
-	while i < 5
+	while i <= 5
     	fib_array << i=j+j=i 
 	end
 fib_array
@@ -20,3 +20,11 @@ def fib_filter(n)
 	end
 	array_even
 end
+
+def fib_sum(arr)
+	arr.inject{|sum, num| sum + num}
+end
+
+puts fib.inspect
+puts fib_filter(fib).inspect
+puts fib_sum(fib)
